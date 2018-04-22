@@ -6,7 +6,8 @@
 	}
 
 /** Row **/
-	.sb-site { 
+	.sb-site {
+		background: #000;
 		height: 430px;
 		position: absolute;
 		width: 100%; 
