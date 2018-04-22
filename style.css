@@ -1,0 +1,52 @@
+/* CUSTOM CSS */
+
+/** Body **/
+	body {
+		margin: 0;
+	}
+
+/** Row **/
+	.sb-site { 
+		height: 430px;
+		position: absolute;
+		width: 100%; 
+		z-index: 9; 
+	}
+
+	.sb-site img {
+		height: 430px;
+		width: 1440px;
+	}
+
+/** Header **/
+
+	#header {
+		width: 100%;
+                z-index: 99; 
+	}
+	.title, .description {
+		text-align: center; 
+	}
+
+/** Main **/
+	#main { 
+		margin: auto;
+		width: 100%;
+	}
+
+	/*** Article ***/
+		#Blog1 {
+			margin: auto;
+			width: 320px; 
+		}
+
+		.featuredImage, .post-image {
+			margin: auto;
+			overflow: hidden;
+			width: 320px; 
+		}
+		
+		.featuredImage img, .post-image img {
+			margin-left: -240px;
+			width: 800px; 
+		}
